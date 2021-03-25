@@ -5,10 +5,10 @@ int main()
 	scanf("%d",&n);
 	for(i=1;i<=n;i++)
 	{
-		if(i>0&&i<10)
+		if(i>0 && i<10)
 		{
 			count++;
 		}
 	}
-	
+	printf("%d",count);
 }
