@@ -5,7 +5,7 @@ int main()
 	scanf("%d",&n);
 	for(i=1;i<=n;i++)
 	{
-		for(j=2;j<100;j++)
+		for(j=2;j<=100;j++)
 		{
 			m = j * j * j;
 			if(i%m==0)
