@@ -9,7 +9,7 @@ int main()
 		{
 			count++;
 		}
-		if(i>10 && i%11==0)
+		if(i>10 && i%11==0 && i<100)
 		{
 			count++;
 		}
@@ -22,6 +22,34 @@ int main()
 				count++;
 			}
 		}
+		if(i>1000)
+		{
+			a = i % 10;
+			b = i / 1000;
+			if(a==b)
+			{
+				count++;
+			}
+		}
+		if(i>10000)
+		{
+			a = i % 10;
+			b = i / 1000;
+			if(a==b)
+			{
+				count++;
+			}
+		}
+		if(i>100000)
+		{
+			a = i % 10;
+			b = i / 100000;
+			if(a==b)
+			{
+				count++;
+			}
+		}
+		
 	}
 	printf("%d",count);
 }
